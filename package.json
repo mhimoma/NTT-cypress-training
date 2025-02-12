@@ -1,0 +1,16 @@
+{
+  "name": "ntt-cypress-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "cypress": "^14.0.1"
+  }
+}

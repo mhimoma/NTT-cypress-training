@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "bankName": "Heather",
+        "routingNumber": "123654789",
+        "accountNumber": "987563214"
+    },
+    {
+        "id": 2,
+        "bankName": "Savings",
+        "routingNumber": "126654789",
+        "accountNumber": "987963214"
+    },
+    {
+        "id": 3,
+        "bankName": "Family",
+        "routingNumber": "123654788",
+        "accountNumber": "987563216"
+    },
+    {
+        "id": 4,
+        "bankName": "Holidays",
+        "routingNumber": "123654785",
+        "accountNumber": "987563213"
+    }
+]
+
