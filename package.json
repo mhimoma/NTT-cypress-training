@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --spec $TEST_FILES --browser edge"
+    "test": "cypress run --spec $TEST_FILE --browser edge --headless"
   },
   "keywords": [],
   "author": "",

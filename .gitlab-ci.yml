@@ -18,9 +18,23 @@ install:
   artifacts:
     paths:
       - node_modules/
+    expire_in: 7 days
 
 test:
-  image: cypress/included:13.7.1
+  image: cypress/included:14.0.1
   stage: test
+  dependencies:
+    - install
   script: 
     - npm run test
+  parallel:
+    matrix:
+      - TEST_FILES: "cypress/e2e/exmaples.cy.js"
+      - TEST_FILES: "cypress/e2e/assertions.cy.js"
+      - TEST_FILES: "cypress/e2e/network_requests.cy.js"
+    
+  artifacts:
+    paths:
+      - cypress/screenshots
+      - cypress/videos
+    expire_in: 7 days
