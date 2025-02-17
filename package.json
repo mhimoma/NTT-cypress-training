@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --spec $TEST_FILE --browser edge --headless"
+    "test": "cypress run --spec 'cypress/e2e/network_requests.cy.js' --browser edge --headless"
   },
   "keywords": [],
   "author": "",
